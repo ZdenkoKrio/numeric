@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C838BAE72A7038870042FFCE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BAE62A7038870042FFCE /* main.swift */; };
+		C838BAF02A7039E40042FFCE /* InfinityNumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = C838BAEF2A7039E40042FFCE /* InfinityNumeric.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		C838BAE32A7038870042FFCE /* numeric */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = numeric; sourceTree = BUILT_PRODUCTS_DIR; };
 		C838BAE62A7038870042FFCE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C838BAEF2A7039E40042FFCE /* InfinityNumeric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityNumeric.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,42 @@
 		C838BAE52A7038870042FFCE /* numeric */ = {
 			isa = PBXGroup;
 			children = (
+				C838BAF12A703E980042FFCE /* Enums */,
+				C838BAEE2A7039660042FFCE /* Models */,
+				C838BAED2A7039510042FFCE /* Protocols */,
 				C838BAE62A7038870042FFCE /* main.swift */,
 			);
 			path = numeric;
+			sourceTree = "<group>";
+		};
+		C838BAED2A7039510042FFCE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C838BAEF2A7039E40042FFCE /* InfinityNumeric.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C838BAEE2A7039660042FFCE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C838BAF12A703E980042FFCE /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				C838BAF22A703F2E0042FFCE /* Errors */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		C838BAF22A703F2E0042FFCE /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C838BAE72A7038870042FFCE /* main.swift in Sources */,
+				C838BAF02A7039E40042FFCE /* InfinityNumeric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
